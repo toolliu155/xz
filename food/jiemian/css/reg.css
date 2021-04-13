@@ -1,0 +1,99 @@
+.content {
+    position: relative;
+    width: 1020px;
+    height: 800px;
+}
+.title {
+    position: absolute;
+    top: 20px;
+    left: 300px;
+    width: 412px;
+    font-size:21px ;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    
+}
+.title span {
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
+    color: #E30077;
+}
+.m_table {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    width: 400px;
+    height: 440px;
+    border: 1px solid #ccc;
+    transform: translateX(-50%);
+    
+}
+.table_item{
+    margin-top: 50px;
+}
+.m_table li {
+    height: 40px;
+    font-size:13px ;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+
+.m_table input {
+    width: 200px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 15px;
+}   
+
+.m_table input:focus {
+   border: 1px solid #E30077;
+}
+.m_table li:nth-child(1) input {
+    margin-left: 14px;
+}
+
+.m_table li:nth-child(2) input {
+    margin-left: 27px;
+}
+
+.m_table li:nth-child(3) input {
+    margin-left: 15px;
+}
+.m_table li:nth-child(4) input{
+    width: 100px;
+    height: 40px;
+}
+.m_table li:nth-child(5) {
+    position: absolute;
+    top: 230px;
+    left: 155px;
+    width: 80px;
+    height: 40px;
+    background-color: pink;
+    border-radius:8px ;
+}
+.m_table li:nth-child(6) input{
+    position: absolute;
+    top: 230px;
+    left: 255px;
+    width: 80px;
+    height: 40px;
+    border-radius:20px ;
+}
+.m_table .btn {
+    position: absolute;
+    top: 290px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 45px;
+    background-color: #E30077;
+    color: #fff;
+    border: none;
+}
+.m_table .btn:hover{
+    outline: none;
+    border: none;
+    background-color: rgba(227, 0, 119,0.8);
+}
